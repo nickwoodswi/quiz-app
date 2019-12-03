@@ -61,7 +61,7 @@ function answerQuestion(event) {
     score += 1;
     $container.html(`<h2>CORRECT!</h2><button class="nextButton">NEXT QUESTION</button>`);
   } else {
-    $container.html(`<h2>WRONG!</h2>`);
+    $container.html(`<h2>WRONG!</h2><button class="nextButton">NEXT QUESTION</button>`);
   }
   current += 1;
 
